@@ -8,6 +8,29 @@
 
 Yelp API v2.0 framework written in Swift
 
+## Usage
+
+For detailed usage examples please have a look at [Yelp-Example](https://github.com/chiswicked/Yelp-Example)
+
+## Installation
+
+Yelp framework is available through a private CocoaPod pod.
+
+##### 1. Create a `Podfile` in the root directory of your Xcode project with the following content:
+```ruby
+source 'https://github.com/chiswicked/CWCocoaPodsRepository.git'
+use_frameworks!
+pod 'Yelp'
+```
+##### 2. Install pod
+```
+pod install
+```
+
+## Author
+
+Norbert Metz - [LinkedIn](https://www.linkedin.com/in/norbertmetz)
+
 ## License
 
-Yelp is available under the MIT license. See the LICENSE file for more info.
+Yelp is available under the MIT license. See the [LICENSE](https://github.com/chiswicked/Yelp/blob/master/LICENSE) file for more info.
