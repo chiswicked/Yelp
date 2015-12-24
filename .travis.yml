@@ -4,6 +4,11 @@ xcode_workspace: Yelp.xcworkspace
 xcode_scheme: Yelp
 xcode_sdk: iphonesimulator9.2
 
+script:
+- xctool -workspace Yelp.xcworkspace -scheme Yelp build test -sdk iphonesimulator GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES
+after_success:
+- bash <(curl -s https://codecov.io/bash)
+
 #script:
 #- set -o pipefail && xcodebuild test -workspace Example/Yelp.xcworkspace -scheme Yelp-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty
 #- pod lib lint
