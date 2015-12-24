@@ -10,6 +10,9 @@
 		846A46341C2B665F00323E1E /* Yelp.h in Headers */ = {isa = PBXBuildFile; fileRef = 846A46331C2B665F00323E1E /* Yelp.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		846A463B1C2B665F00323E1E /* Yelp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846A46301C2B665F00323E1E /* Yelp.framework */; };
 		846A46401C2B665F00323E1E /* YelpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A463F1C2B665F00323E1E /* YelpTests.swift */; };
+		846A46531C2B690A00323E1E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 846A464C1C2B690A00323E1E /* LICENSE */; };
+		846A46541C2B690A00323E1E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 846A464C1C2B690A00323E1E /* LICENSE */; };
+		846A465B1C2B6D0E00323E1E /* Yelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A465A1C2B6D0E00323E1E /* Yelp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,12 @@
 		846A463A1C2B665F00323E1E /* YelpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YelpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		846A463F1C2B665F00323E1E /* YelpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpTests.swift; sourceTree = "<group>"; };
 		846A46411C2B665F00323E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846A464A1C2B690A00323E1E /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		846A464B1C2B690A00323E1E /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		846A464C1C2B690A00323E1E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		846A464D1C2B690A00323E1E /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		846A464E1C2B690A00323E1E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		846A465A1C2B6D0E00323E1E /* Yelp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Yelp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +62,7 @@
 		846A46261C2B665F00323E1E = {
 			isa = PBXGroup;
 			children = (
+				846A46591C2B69A000323E1E /* Metadata */,
 				846A46321C2B665F00323E1E /* Yelp */,
 				846A463E1C2B665F00323E1E /* YelpTests */,
 				846A46311C2B665F00323E1E /* Products */,
@@ -71,6 +81,7 @@
 		846A46321C2B665F00323E1E /* Yelp */ = {
 			isa = PBXGroup;
 			children = (
+				846A465A1C2B6D0E00323E1E /* Yelp.swift */,
 				846A46331C2B665F00323E1E /* Yelp.h */,
 				846A46351C2B665F00323E1E /* Info.plist */,
 			);
@@ -84,6 +95,18 @@
 				846A46411C2B665F00323E1E /* Info.plist */,
 			);
 			path = YelpTests;
+			sourceTree = "<group>";
+		};
+		846A46591C2B69A000323E1E /* Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				846A464A1C2B690A00323E1E /* .gitignore */,
+				846A464B1C2B690A00323E1E /* .travis.yml */,
+				846A464C1C2B690A00323E1E /* LICENSE */,
+				846A464D1C2B690A00323E1E /* Podfile */,
+				846A464E1C2B690A00323E1E /* README.md */,
+			);
+			name = Metadata;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846A46531C2B690A00323E1E /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846A46541C2B690A00323E1E /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846A465B1C2B6D0E00323E1E /* Yelp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +281,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -297,7 +323,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -310,6 +336,7 @@
 		846A46451C2B665F00323E1E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -320,12 +347,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.chiswicked.Yelp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		846A46461C2B665F00323E1E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
