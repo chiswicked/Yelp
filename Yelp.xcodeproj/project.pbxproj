@@ -15,6 +15,7 @@
 		846A46531C2B690A00323E1E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 846A464C1C2B690A00323E1E /* LICENSE */; };
 		846A46541C2B690A00323E1E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 846A464C1C2B690A00323E1E /* LICENSE */; };
 		846A465B1C2B6D0E00323E1E /* Yelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A465A1C2B6D0E00323E1E /* Yelp.swift */; };
+		84C86BA41C2C4289008B0514 /* Yelp.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 84C86BA31C2C4289008B0514 /* Yelp.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		846A464D1C2B690A00323E1E /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		846A464E1C2B690A00323E1E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		846A465A1C2B6D0E00323E1E /* Yelp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Yelp.swift; sourceTree = "<group>"; };
+		84C86BA31C2C4289008B0514 /* Yelp.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Yelp.podspec; sourceTree = "<group>"; };
 		918D7EC0CE7EC78A6894AABD /* Pods-YelpTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YelpTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YelpTests/Pods-YelpTests.release.xcconfig"; sourceTree = "<group>"; };
 		DE1146823F9E234D03E60798 /* Pods_YelpTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YelpTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -132,6 +134,7 @@
 		846A46591C2B69A000323E1E /* Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				84C86BA31C2C4289008B0514 /* Yelp.podspec */,
 				846A464A1C2B690A00323E1E /* .gitignore */,
 				846A464B1C2B690A00323E1E /* .travis.yml */,
 				846A464C1C2B690A00323E1E /* LICENSE */,
@@ -239,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C86BA41C2C4289008B0514 /* Yelp.podspec in Resources */,
 				846A46531C2B690A00323E1E /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
