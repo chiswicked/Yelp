@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Yelp/**/*'
 
-#  s.dependency 'AFNetworking', '~> 3.0.1'
-#  s.dependency 'BDBOAuth1Manager', '~> 2.0'
-#  s.dependency 'SwiftyJSON', '~> 2.3.2'
+  s.dependency 'AFNetworking', '~> 3.0.1'
+  s.dependency 'BDBOAuth1Manager', '~> 2.0'
+  s.dependency 'SwiftyJSON', '~> 2.3.2'
 end

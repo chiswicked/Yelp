@@ -6,6 +6,8 @@
 //  Copyright © 2015 Norbert Metz. All rights reserved.
 //
 
+import Foundation
+
 /**
  *  Yelp API v2.0 credential type references for internal use
  */
